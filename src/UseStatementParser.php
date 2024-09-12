@@ -6,16 +6,16 @@ namespace Yiisoft\VarDumper;
 
 use RuntimeException;
 
-use function array_slice;
-use function defined;
-use function file_get_contents;
-use function is_array;
-use function is_file;
-use function is_readable;
-use function mb_substr;
-use function strpos;
-use function strrchr;
-use function substr;
+//use function array_slice;
+//use function defined;
+//use function file_get_contents;
+//use function is_array;
+//use function is_file;
+//use function is_readable;
+//use function mb_substr;
+//use function strpos;
+//use function strrchr;
+//use function substr;
 
 /**
  * UseStatementParser given a PHP file, returns a set of `use` statements from the code.
