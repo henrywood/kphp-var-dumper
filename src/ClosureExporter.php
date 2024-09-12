@@ -8,20 +8,20 @@ use Closure;
 use ReflectionException;
 use ReflectionFunction;
 
-use function array_filter;
-use function array_pop;
-use function array_shift;
-use function array_slice;
-use function explode;
-use function file;
-use function implode;
-use function in_array;
-use function is_array;
-use function is_string;
-use function mb_strlen;
-use function mb_substr;
-use function token_get_all;
-use function trim;
+//use function array_filter;
+//use function array_pop;
+//use function array_shift;
+//use function array_slice;
+//use function explode;
+//use function file;
+//use function implode;
+//use function in_array;
+//use function is_array;
+//use function is_string;
+//use function mb_strlen;
+//use function mb_substr;
+//use function token_get_all;
+//use function trim;
 
 /**
  * ClosureExporter exports PHP {@see \Closure} as a string containing PHP code.
