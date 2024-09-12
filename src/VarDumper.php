@@ -16,15 +16,15 @@ use ReflectionObject;
 use Yiisoft\Arrays\ArrayableInterface;
 use Yiisoft\VarDumper\Handler\EchoHandler;
 
-use function array_keys;
-use function gettype;
-use function method_exists;
-use function next;
-use function spl_object_id;
-use function str_repeat;
-use function strtr;
-use function trim;
-use function var_export;
+//use function array_keys;
+//use function gettype;
+//use function method_exists;
+//use function next;
+//use function spl_object_id;
+//use function str_repeat;
+//use function strtr;
+//use function trim;
+//use function var_export;
 
 /**
  * VarDumper provides enhanced versions of the PHP functions {@see var_dump()} and {@see var_export()}.
