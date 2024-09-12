@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 use Yiisoft\VarDumper\VarDumper;
 
-if (!function_exists('d')) {
+if (!function_exists('__d')) {
     /**
      * Prints variables.
      *
@@ -14,7 +14,7 @@ if (!function_exists('d')) {
      *
      * @psalm-suppress MixedAssignment
      */
-    function d(mixed ...$variables): void
+    function __d(mixed ...$variables): void
     {
         $highlight = PHP_SAPI !== 'cli';
 
@@ -25,7 +25,7 @@ if (!function_exists('d')) {
     }
 }
 
-if (!function_exists('dd')) {
+if (!function_exists('__dd')) {
     /**
      * Prints variables and terminate the current script.
      *
@@ -35,9 +35,9 @@ if (!function_exists('dd')) {
      *
      * @psalm-suppress MixedAssignment
      */
-    function dd(mixed ...$variables): void
+    function __dd(mixed ...$variables): void
     {
-        d(...$variables);
+        __d(...$variables);
 
         die(0);
     }
@@ -55,6 +55,6 @@ if (!function_exists('dump')) {
      */
     function dump(mixed ...$variables): void
     {
-        d(...$variables);
+        __d(...$variables);
     }
 }
